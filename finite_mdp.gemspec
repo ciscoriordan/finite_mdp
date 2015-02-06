@@ -19,7 +19,7 @@ solve it (see FiniteMDP::Solver).}
 
   s.rubyforge_project = 'finite_mdp'
 
-  s.add_runtime_dependency 'narray', '~> 0.5.9'
+  s.add_runtime_dependency 'narray', '~> 0.6.1.1'
   s.add_development_dependency 'gemma', '~> 2.1.0'
 
   s.files       = Dir.glob('{lib,bin}/**/*.rb') + %w(README.rdoc)
